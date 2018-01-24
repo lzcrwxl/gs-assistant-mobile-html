@@ -1,0 +1,165 @@
+body {
+  background: #efeff4;
+  font-family: STHeit;
+}
+footer {
+  background: #f7f7fa;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: .98rem;
+  border-top: 1px solid #bfbfc3;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  width: 25%;
+  text-align: center;
+  color: #7f8389;
+  padding-top: .68rem;
+  background-repeat: no-repeat;
+  background-position: center .14rem;
+}
+footer .home {
+  background-image: url("../img/icons/homeno.png");
+  background-size: .52rem .44rem;
+}
+footer .order {
+  background-image: url("../img/icons/orderno.png");
+  background-size: .46rem;
+}
+footer .job {
+  background-image: url("../img/icons/jobno.png");
+  background-size: .49rem .48rem;
+}
+footer .aunt {
+  background-image: url("../img/icons/auntno.png");
+  background-size: .47rem .46rem;
+}
+.homeActive {
+  background-image: url("../img/icons/home.png") !important;
+  background-size: .52rem .44rem;
+  color: #0b7ee3;
+}
+.orderActive {
+  background-image: url("../img/icons/order.png") !important;
+  background-size: .46rem;
+  color: #0b7ee3;
+}
+.jobActive {
+  background-image: url("../img/icons/job.png") !important;
+  background-size: .49rem .48rem;
+  color: #0b7ee3;
+}
+.auntActive {
+  background-image: url("../img/icons/aunt.png") !important;
+  background-size: .47rem .46rem;
+  color: #0b7ee3;
+}
+.selectBase {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: #e9e9f0;
+  border-radius: .12rem;
+  text-align: center;
+  font-size: .26rem;
+  color: #4c4c4c;
+  background-image: url("../img/icons/arrow.png");
+  background-repeat: no-repeat;
+  background-size: .12rem .06rem;
+}
+.selectBase option {
+  font-size: .26rem;
+  color: #4c4c4c;
+  text-align: center;
+}
+header {
+  font-size: 0;
+  color: #ffffff;
+  overflow: hidden;
+  background: #0080ff;
+  height: 3.3rem;
+}
+header .avatarBar {
+  margin: .42rem .3rem;
+}
+header .avatarBar .avatarWrapper {
+  width: 1.18rem;
+  height: 1.18rem;
+  background: #ffffff;
+  border-radius: .2rem;
+  display: inline-block;
+}
+header .wechatshop-bar {
+  width: 7.2rem;
+  height: .98rem;
+  line-height: .98rem;
+  border-bottom-right-radius: .49rem;
+  border-top-right-radius: .49rem;
+  background: rgba(255, 255, 255, 0.23);
+}
+header .wechatshop-bar .shop-name {
+  padding-left: .6rem;
+  background: url("/static/img/icons/shop.png") no-repeat;
+  background-size: .4rem .36rem;
+  background-position: center left;
+}
+header .wechatshop-bar a {
+  font-size: .26rem;
+  padding-right: .24rem;
+  color: #ffffff;
+  margin-right: .3rem;
+  background: url("/static/img/icons/arrowRt.png") no-repeat;
+  background-position: center right;
+  background-size: .15rem .28rem;
+}
+header .wechatshop-bar a span {
+  opacity: .68;
+}
+section .container h3 {
+  height: .76rem;
+  line-height: .76rem;
+  color: #5b5b5b;
+  padding-left: .3rem;
+  font-size: .26rem;
+}
+section .container .order-lists {
+  display: flex;
+  background: #ffffff;
+  justify-content: space-between;
+}
+section .container .order-lists .order-item {
+  width: 33.333333333%;
+  height: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section .container .order-lists .order-item:not(:last-child) {
+  border-right: 1px solid #efeff4;
+}
+section .container .order-lists .order-item .num {
+  margin-top: .56rem;
+  margin-bottom: .26rem;
+  font-size: .44rem;
+  color: #0a7ee3;
+}
+section .container .order-lists .order-item .order-status {
+  display: inline-block;
+  font-size: .3rem;
+  color: #333;
+  margin-bottom: .54rem;
+}
+section .container .order-lists .order-item .no-online {
+  font-size: .3rem;
+  color: #d6d6d6;
+  margin-top: .7rem;
+  margin-bottom: .26rem;
+}
+section .container .more-function li {
+  color: #d5d5d5;
+  font-size: .3rem;
+  line-height: 2rem;
+}
